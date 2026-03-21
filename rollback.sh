@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #script stops if something fails.
-set -e
+set -euo pipefail
 
 echo "[!] Rolling back firewall configuration..."
 
